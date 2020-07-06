@@ -1,12 +1,134 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>TBA</title>
+<title>Tahanang Balik-Alay</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="logos.png" sizes="16x16 32x32" type="image/png">
+<link rel="stylesheet" href="apec.css">
+<link href="https://fonts.googleapis.com/css?family=Anton|Noticia+Text&display=swap" rel="stylesheet">
+<style>
+body,h1 {font-family: 'Anton', sans-serif;
+font-family: 'Noticia Text', serif;}
+body, html {height: 100%}
+.bgimg {
+  background-image: url('bg.jpg');
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.alert {
+  padding: 20px;
+  background-color: #000000;
+  color: orange;
+}
 
+.closebtn {
+  margin-left: 15px;
+  color: yellow;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: red;
+}
+</style>
 </head>
 <body>
-	<h1>HI</h1>
-	<h2>hello</h2>
+<div class="alert">
+  <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+  <strong>This website of TBA is still under maintenance,</strong> We're working on it and updating the website to comiit changes on AUGUST 21 2020</div>
+</style>
+<style>
+  .text {
+  background-color: orange;
+  color: white;
+  font-size: 10vw; 
+  font-weight: bold;
+  margin: 0 auto;
+  padding: 10px;
+  width: 100%;
+  line-height: 100%;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  mix-blend-mode: multiply;
+}
+</style>
+
+<body>  
+<div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
+  <div class="w3-display-topleft w3-padding-large w3-xlarge">
+    <style>.glow {
+  font-size: 30px;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #1b03a3, 0 0 40px #1b03a3, 0 0 50px #1b03a3, 0 0 60px #1b03a3, 0 0 70px #1b03a3;
+  }
+  
+  to {
+    text-shadow: 0 0 2px #fff, 0 0 3px #FFBF00, 0 0 4px #FFBF00, 0 0 5px #FFBF00, 0 0 6px #FFBF00, 0 0 7px #FFBF00, 0 0 8px #FFBF00;
+  }
+}
+</style>
+</head>
+<body>
+
+<h1 class="glow">T B-A</h1></style>
+  </div>
+  <div class="w3-display-middle">
+    <h1 class="w3-jumbo w3-animate-top" class="CS">UNDER MAINTENANCE</h1>
+    <hr class="w3-border-grey" style="margin:auto;width:40%">
+<p id="demo" class="w3-large w3-center"></p>
+
+<script>
+var countDownDate = new Date("August 21, 2020 13:00:00").getTime();
+
+
+var x = setInterval(function() {
+
+  
+  var now = new Date().getTime();
+
+  var distance = countDownDate - now;
+
+  
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+
+  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+
+
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "launching";
+  }
+}, 1000);
+</script>
+
+  </div>
+  <div class="w3-display-bottomleft w3-padding-large">
+    AMPLIFY <a>2019</a>
+  </div>
+</div>
+
 
 </body>
 </html>
