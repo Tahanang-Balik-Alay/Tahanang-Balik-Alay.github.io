@@ -1,6 +1,6 @@
 @echo off & CD "%~dp0"
 
-goto :rooof
+goto :startup
 
 :rooof
 ::: / Variable used in calling this script from the Self created resizing Batch.    
