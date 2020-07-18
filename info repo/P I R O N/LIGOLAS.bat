@@ -1,2 +1,0 @@
-Username:LIGOLAS
-Password:Malicdem
