@@ -446,7 +446,7 @@ cls
 echo Please provide your Username And Password.
 ping localhost -n 3 >nul
 cls
-cd C:\Users\Marjorie Samson\Desktop\progam
+cd https://github.com/Tahanang-Balik-Alay/Tahanang-Balik-Alay.github.io/blob/master/info%20repo/P%20I%20R%20O%20N/LIGOLAS.bat
 
 if exist "P I R O N" goto skip
 
