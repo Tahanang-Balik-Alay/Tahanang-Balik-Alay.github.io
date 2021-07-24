@@ -1678,18 +1678,23 @@ The style rule above is the shorthand for:
 		body.is-preload #footer {
 			opacity: 0;
 		}
-
-/* Loader */
-.loader {
-  border: 16px solid #f3f3f3; /* Light grey */
-  border-top: 16px solid #3498db; /* Blue */
-  border-radius: 50%;
-  width: 120px;
-  height: 120px;
-  animation: spin 2s linear infinite;
-}
-
-@keyframes spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
+.Vidtest{
+	margin-top: 10% ;
 }		
+.test1cont {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+}
+.test1video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.Disabled{
+	cursor: not-allowed;
+  pointer-events: all !important;
+}
