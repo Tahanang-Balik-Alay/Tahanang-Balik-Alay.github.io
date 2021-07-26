@@ -1708,9 +1708,9 @@ The style rule above is the shorthand for:
 }
 /* Clear floats after image containers */
 @media screen and (max-width: 500px) {
-  .vidcol {
-    width: 100%;
-  }
+  .vidmaincontainer {
+    float: none;
+    display: none;
 }
 /* Nav Button Additions */
 .Disabled{
