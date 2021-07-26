@@ -1717,3 +1717,13 @@ The style rule above is the shorthand for:
 	cursor: not-allowed;
   pointer-events: all !important;
 }
+/* SLIDESHOW */
+.SlideCont {
+
+}
+.SlideImg{
+  
+}
+@media screen and (max-width: 500px) {
+
+}
