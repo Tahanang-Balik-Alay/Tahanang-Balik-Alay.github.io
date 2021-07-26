@@ -5,6 +5,9 @@
 	Dimension by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+	Controlled and monitored by: Ligolas Neo Malicdem
+	This also includes some minor and some major modification on the base HTML Codes.
+
 */
 
 html, body, div, span, applet, object,
@@ -1678,14 +1681,22 @@ The style rule above is the shorthand for:
 		body.is-preload #footer {
 			opacity: 0;
 		}
-.Vidtest{
-	margin-top: 10% ;
-}		
+
+		/* Video */	
+.vidmaincontainer {
+	  margin-top: 300px;
+	  display:inline-block;
+	  width: 100%;
+	  display: flex;
+	  float: left;
+	  justify-content: center;
+}
 .test1cont {
     position: relative;
-    width: 100%;
+    width: 37.5%;
     height: 0;
-    padding-bottom: 56.25%;
+    padding-bottom: 21.09%;
+    margin: 4px;
 }
 .test1video {
     position: absolute;
@@ -1693,7 +1704,15 @@ The style rule above is the shorthand for:
     left: 0;
     width: 100%;
     height: 100%;
+
 }
+/* Clear floats after image containers */
+@media screen and (max-width: 500px) {
+  .vidcol {
+    width: 100%;
+  }
+}
+/* Nav Button Additions */
 .Disabled{
 	cursor: not-allowed;
   pointer-events: all !important;
