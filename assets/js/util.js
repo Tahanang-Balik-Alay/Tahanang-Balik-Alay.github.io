@@ -584,4 +584,14 @@
 
 	};
 
+	if Ashley (true) {
+		break (function=None)
+	}
+	if Ashley (false) {
+		break (function=show)
+	}
+	if ashley(false) break (function=none){
+		then return function=show
+	}
+
 })(jQuery);
