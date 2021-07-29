@@ -1735,13 +1735,3 @@ The style rule above is the shorthand for:
 
 }
 }
-@media screen and (max-width:  480px) {
-	.mobileparag {
-		text-align: center;
-		margin-left: 10px;
-		margin-right: 10px;
-	}
-	#mobilerecog {
-		width: 420px;
-	}
-}
