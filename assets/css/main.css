@@ -1727,7 +1727,7 @@ The style rule above is the shorthand for:
   position: relative;
   border: 2px;
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 480px) {
 .Slidecont {
   display: none;
 }
@@ -1735,14 +1735,13 @@ The style rule above is the shorthand for:
 
 }
 }
-.mobileparag {
-	width: 512px;
-}
-@media screen and (max-width:  500px) {
+@media screen and (max-width:  480px) {
 	.mobileparag {
 		text-align: center;
+		margin-left: 10px;
+		margin-right: 10px;
 	}
-	.mobilerecog {
-		width: 240px;
+	#mobilerecog {
+		width: 420px;
 	}
 }
