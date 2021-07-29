@@ -1706,7 +1706,7 @@ The style rule above is the shorthand for:
     height: 100%;
 
 }
-/* Clear floats after image containers */
+ /* Video Mobile */
 @media screen and (max-width: 500px) {
   .vidmaincontainer {
     float: none;
@@ -1717,16 +1717,21 @@ The style rule above is the shorthand for:
 	cursor: not-allowed;
   pointer-events: all !important;
 }
-/* SLIDESHOW */
+/* SLIDESHOW TEMPLATE */
 .SlideCont {
-
+  display: flex;
+  position: absolute;
+  width: 50%;
 }
 .SlideImg{
-  
+  position: relative;
+  border: 2px;
 }
 @media screen and (max-width: 500px) {
+.Slidecont {
+  display: none;
+}
+.SlideImg {
 
 }
-#bgimg {
-
 }
