@@ -751,6 +751,30 @@ The style rule above is the shorthand for:
 		margin: 0 0 2rem 0;
 		padding-left: 1em;
 	}
+	.uwl {
+		list-style: disc;
+		padding-left: 1em;
+	}
+	.uwl2 {
+		list-style: disc;
+		margin: 0 0 1rem 0;
+		padding-left: 1em;
+	}
+	.uwl3 {
+		list-style: disc;
+		margin: 0 0 1rem 0;
+		padding-left: 2em;
+	}
+	.uwl4 {
+		list-style: disc;
+		margin: 0 0 1rem 0;
+		padding-left: 1.5em;
+	}
+	.uwl5 {
+		list-style: disc;
+		margin: 0 0 1rem 0;
+		padding-left: 0.5em;
+	}
 
 		ul li {
 			padding-left: 0.5em;
