@@ -268,7 +268,7 @@ The style rule above is the shorthand for:
 	}
 
 	blockquote {
-		border-left: solid 4px #ffffff;
+		border-left: solid 0px #ffffff;
 		font-style: italic;
 		padding: 0.5rem 0 0.5rem 2rem;
 	}
