@@ -40,6 +40,11 @@ ol, ul {
 	list-style: none;
 }
 
+.fb-overlays {
+	color: #000000;
+	background: #121212;
+}
+
 blockquote, q {
 	quotes: none;
 }
